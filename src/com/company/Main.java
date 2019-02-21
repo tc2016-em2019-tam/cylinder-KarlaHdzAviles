@@ -10,7 +10,8 @@ public class Main {
         System.out.println("Cylinder:"
                 + " radius=" + c1.getRadius()
                 + " height=" + c1.getHeight()
-                + " base area=" + c1.getArea()
+                + " base area=" + c1.getBaseArea()
+                + " surface area=" + c1.getArea()
                 + " volume=" + c1.getVolume());
         System.out.println(c1.toString());
 
@@ -20,7 +21,8 @@ public class Main {
         System.out.println("Cylinder:"
                 + " radius=" + c2.getRadius()
                 + " height=" + c2.getHeight()
-                + " base area=" + c2.getArea()
+                + " base area=" + c2.getBaseArea()
+                + " surface area=" + c2.getArea()
                 + " volume=" + c2.getVolume());
         System.out.println(c2.toString());
 
@@ -30,8 +32,8 @@ public class Main {
         System.out.println("Cylinder:"
                 + " radius=" + c3.getRadius()
                 + " height=" + c3.getHeight()
-                + " base area=" + c3.getArea()
-                + "surface area=" + c3.getArea()
+                + " base area=" + c3.getBaseArea()
+                + " surface area=" + c3.getArea()
                 + " volume=" + c3.getVolume());
         System.out.println(c3.toString());
     }
